@@ -24,20 +24,20 @@ export default class Information extends React.Component {
                 <div className="informationText" id="information">
                     apartamento lorem ipsum apartamento lorem ipsum 
                     apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
-                    apartamento lorem ipsum apartamento lorem ipsum 
+                </div>
 
+                <div className="vantagens">
+                    <div className="vantagensItem">
+                        <div className="vantagensItemImg">
+                                <img src="/img/icons/a.png" alt="Otima localizão" title="Espaço de Primeira"/>
+                        </div>
+                        <div className="vantagensItemTxt">
+                            Ótimo apartamento com extrutura de primeira. <br/>
+                            R$ 800,00
+                        </div>
+                    </div>
 
+                    
                 </div>
             </div>
         );
