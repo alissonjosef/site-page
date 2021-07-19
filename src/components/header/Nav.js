@@ -7,8 +7,8 @@ export default class Nav extends React.Component {
     render() {
         return (
             <div className="nav"> 
-                <AnchorLink href='#things'>Home</AnchorLink>
-                <AnchorLink href='#Photo'>Fotos</AnchorLink>
+                <AnchorLink href='#home'>Home</AnchorLink>
+                <AnchorLink href='#mapa'>Mapa</AnchorLink>
                 <AnchorLink href='#information'>Informações</AnchorLink>
                 <AnchorLink href='#contact'>Contatos</AnchorLink>
             </div>

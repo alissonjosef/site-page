@@ -5,7 +5,17 @@ export default class Footer extends React.Component {
 
     render() {
         return (
-            null
+            <div className="footer">
+                <div>
+                    <img src="/img/logo.png" alt="Logo"/>
+                </div>
+
+                <div>
+                    Endereço <br />
+                    Telefone <br />
+                    Email <br />
+                </div>
+            </div>
         );
     }
 }
